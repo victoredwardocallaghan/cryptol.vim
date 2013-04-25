@@ -36,6 +36,10 @@ Section 1: Usage                                                 *CryptolUsage*
 This plugin will automatically provide syntax highlighting for Cryptol files
 (files ending in .cry).
 
+Cryptol is a purely functional domain specific language, developed over the
+past decade by Galois for the NSA, for the design, implementation and
+verification of cryptographic algorithms.
+
 ==============================================================================
 Section 2: Mappings                                           *CryptolMappings*
 
