@@ -4,7 +4,7 @@ cryptol.vim
 Copyright © 2013 Edward O'Callaghan. All Rights Reserved.
 
 A ViM plugin functionality for the Cryptol programming language.
-
+<pre>
 
   .oooooo.                                       .             oooo  
  d8P'  `Y8b                                    .o8             `888  
@@ -16,7 +16,7 @@ A ViM plugin functionality for the Cryptol programming language.
                       .o..P'       888                               
                       `Y8P'       o888o                              
 
-          Functionality for the Cryptol programming language.
+        Functionality for the Cryptol programming language.
         Includes syntax highlighting, code folding, and more!
 
 ==============================================================================
@@ -61,4 +61,4 @@ Section 6: Changelog                                         *CryptolChangelog*
 Section 7: Credits                                             *CryptolCredits*
 
  * Edward O'Callaghan
-
+</pre>
