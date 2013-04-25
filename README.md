@@ -61,4 +61,6 @@ Section 6: Changelog                                         *CryptolChangelog*
 Section 7: Credits                                             *CryptolCredits*
 
  * Edward O'Callaghan
+ * Fergus Henderson
+
 </pre>
