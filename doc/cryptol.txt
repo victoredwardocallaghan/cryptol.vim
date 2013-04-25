@@ -51,18 +51,25 @@ Section 4: Bugs                                                   *CryptolBugs*
  * https://github.com/victoredwardocallaghan/cryptol.vim/issues
 
 ==============================================================================
-Section 5: Contributing                                   *CryptolContributing*
+Section 5: TODOs                                                *CryptolTODOs
+
+ * Add compiler support
+  - .
+
+==============================================================================
+Section 6: Contributing                                   *CryptolContributing*
 
  * Edward O'Callaghan
 
 ==============================================================================
-Section 6: Changelog                                         *CryptolChangelog*
+Section 7: Changelog                                         *CryptolChangelog*
 
  * Initial 25 Apr 2013.
 
 ==============================================================================
-Section 7: Credits                                             *CryptolCredits*
+Section 8: Credits                                             *CryptolCredits*
 
  * Edward O'Callaghan
- * Fergus Henderson
+ * Fergus Henderson - wrote the orginal syntax file.
 
+vim:ts=4:ft=help:tw=78:et
