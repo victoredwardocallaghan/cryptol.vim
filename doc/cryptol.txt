@@ -35,6 +35,13 @@ This plugin will automatically provide syntax highlighting for Cryptol files
 ==============================================================================
 Section 2: Mappings                                           *CryptolMappings*
 
+Code folding is done in the typical way, for example:
+ * za - When on a closed fold - open it.
+ * zM - Close all foldings to level 0.
+ * zR - Reduce folding
+
+For more information see, for example, :help za
+
 ==============================================================================
 Section 3: License                                             *CryptolLicense*
 
