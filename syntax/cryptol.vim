@@ -65,6 +65,8 @@ syn keyword cryPrimitive        module import private
 syn match   cryLineComment      "//.*"
 syn region  cryBlockComment     start="/\*"  end="\*/" contains=cryBlockComment
 
+syn keyword cryTodo             contained TODO FIXME XXX
+
 if !exists("cry_minlines")
   let cry_minlines = 50
 endif
@@ -102,6 +104,7 @@ if version >= 508 || !exists("did_cry_syntax_inits")
   hi link cryBoolean			  Boolean
   hi link cryType			  Type
   hi link cryProp			  Keyword
+  hi link cryTodo			  Todo
 
   delcommand HiLink
 endif
