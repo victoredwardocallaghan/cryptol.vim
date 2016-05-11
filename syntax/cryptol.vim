@@ -66,6 +66,8 @@ syn keyword cryTodo             contained TODO FIXME XXX
 syn match   cryLineComment      "//.*" contains=cryTodo
 syn region  cryBlockComment     start="/\*"  end="\*/" contains=cryBlockComment,cryTodo
 
+syn keyword cryTodo             contained TODO FIXME XXX
+
 if !exists("cry_minlines")
   let cry_minlines = 50
 endif
