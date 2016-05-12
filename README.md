@@ -80,11 +80,16 @@ Section 4: Bugs                                                   *CryptolBugs*
 Section 5: Contributing                                   *CryptolContributing*
 
  * Edward O'Callaghan
+ * Hugo Vincent
 
 ==============================================================================
 Section 6: Changelog                                         *CryptolChangelog*
 
- * Initial 25 Apr 2013.
+ * 09 May 2016 - Add highlighting of FIXME, TODO and XXX.
+ * 05 May 2016 - Add module keywords for Cryptol 2, fix bug in number
+ 				 syntax highlighting.
+ * 25 Apr 2013 - Add initial compiler support - WIP.
+ * 25 Apr 2013 - Initial.
 
 ==============================================================================
 Section 7: Credits                                             *CryptolCredits*
