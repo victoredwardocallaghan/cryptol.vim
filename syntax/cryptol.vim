@@ -48,8 +48,7 @@ syn keyword cryInclude		include
 syn keyword cryConditional	if then else
 syn keyword cryWhere	        where
 syn keyword cryTypeSyn	        type
-syn keyword cryPragma	        pragma
-syn keyword cryProp	        extern theorem proof forall codeGen Cpp Haskell SMT Isabelle axioms
+syn keyword cryProp	        property
 syn keyword cryType	        Bit inf
 
 " Primitives
@@ -85,7 +84,6 @@ if version >= 508 || !exists("did_cry_syntax_inits")
   hi link cryConditional		  Conditional
   hi link crySpecialChar		  SpecialChar
   hi link cryTypedef			  Typedef
-  hi link cryPragma			  Keyword
   hi link cryVarSym			  cryOperator
   hi link cryConSym			  cryOperator
   hi link cryOperator			  Operator
