@@ -49,8 +49,8 @@ syn keyword cryConditional	if then else
 syn keyword cryWhere	        where
 syn keyword cryTypeSyn	        type
 syn keyword cryPragma	        pragma
-syn keyword cryProp	        extern theorem proof forall codeGen Cpp Haskell SMT Isabelle axioms
-syn keyword cryType	        Bit inf
+syn keyword cryProp	        extern theorem proof forall codeGen Cpp Haskell SMT Isabelle axioms property
+syn keyword cryType	        Bit inf Bool String
 
 " Primitives
 syn keyword cryBoolean          False True
