@@ -11,8 +11,8 @@ elseif exists("b:current_syntax")
   finish
 endif
 
-set expandtab
-set list lcs=tab:>-,trail:.
+setlocal expandtab
+setlocal list lcs=tab:>-,trail:.
 
 " (Qualified) identifiers (no default highlighting)
 " XXX copied from Haskell
