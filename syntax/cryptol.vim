@@ -40,7 +40,7 @@ syn region  cryString		start=+"+  skip=+\\\\\|\\"+  end=+"+  contains=crySpecial
 syn region  cryString		start=+``+  skip=+\\\\\|\\"+  end=+``+  contains=hsSpecialChar
 syn match   cryCharacter		"[^a-zA-Z0-9_']'\([^\\]\|\\[^']\+\|\\'\)'"lc=1 contains=crySpecialChar,crySpecialCharError
 syn match   cryCharacter		"^'\([^\\]\|\\[^']\+\|\\'\)'" contains=crySpecialChar,crySpecialCharError
-syn match   cryNumber		"\<[0-9]\+\>\|\<0[b][01]\+\>\|\<0[x][0-9a-fA-F]\+\>\|\<0[o][0-7]\+\>"
+syn match   cryNumber		"\<[0-9_]\+\>\|\<0[b][01_]\+\>\|\<0[x][0-9a-fA-F_]\+\>\|\<0[o][0-7_]\+\>"
 
 " Keyword definitions.
 
