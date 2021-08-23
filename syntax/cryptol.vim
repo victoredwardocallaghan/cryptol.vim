@@ -11,8 +11,8 @@ elseif exists("b:current_syntax")
   finish
 endif
 
-set expandtab
-set list lcs=tab:>-,trail:.
+setlocal expandtab
+setlocal list lcs=tab:>-,trail:.
 
 " (Qualified) identifiers (no default highlighting)
 " XXX copied from Haskell
@@ -40,7 +40,7 @@ syn region  cryString		start=+"+  skip=+\\\\\|\\"+  end=+"+  contains=crySpecial
 syn region  cryString		start=+``+  skip=+\\\\\|\\"+  end=+``+  contains=hsSpecialChar
 syn match   cryCharacter		"[^a-zA-Z0-9_']'\([^\\]\|\\[^']\+\|\\'\)'"lc=1 contains=crySpecialChar,crySpecialCharError
 syn match   cryCharacter		"^'\([^\\]\|\\[^']\+\|\\'\)'" contains=crySpecialChar,crySpecialCharError
-syn match   cryNumber		"\<[0-9]\+\>\|\<0[b][01]\+\>\|\<0[x][0-9a-fA-F]\+\>\|\<0[o][0-7]\+\>"
+syn match   cryNumber		"\<[0-9_]\+\>\|\<0[b][01_]\+\>\|\<0[x][0-9a-fA-F_]\+\>\|\<0[o][0-7_]\+\>"
 
 " Keyword definitions.
 
@@ -49,8 +49,8 @@ syn keyword cryConditional	if then else
 syn keyword cryWhere	        where
 syn keyword cryTypeSyn	        type
 syn keyword cryPragma	        pragma
-syn keyword cryProp	        extern theorem proof forall codeGen Cpp Haskell SMT Isabelle axioms
-syn keyword cryType	        Bit inf
+syn keyword cryProp	        extern theorem proof forall codeGen Cpp Haskell SMT Isabelle axioms property
+syn keyword cryType	        Bit inf Bool String
 
 " Primitives
 syn keyword cryBoolean          False True
