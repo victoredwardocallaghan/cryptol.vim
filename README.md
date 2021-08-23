@@ -85,6 +85,9 @@ Section 5: Contributing                                   *CryptolContributing*
 ==============================================================================
 Section 6: Changelog                                         *CryptolChangelog*
 
+ * 23 Aug 2021 - Fix highlighting of number literals, 1_000_000
+ * 23 Aug 2021 - Fix `property` keyword missed highlighting
+ * 23 Aug 2021 - Fix :command -nargs usage
  * 09 May 2016 - Add highlighting of FIXME, TODO and XXX.
  * 05 May 2016 - Add module keywords for Cryptol 2, fix bug in number
  				 syntax highlighting.
@@ -96,5 +99,6 @@ Section 7: Credits                                             *CryptolCredits*
 
  * Edward O'Callaghan
  * Fergus Henderson
+ * Max Ulidtko
 
 </pre>
